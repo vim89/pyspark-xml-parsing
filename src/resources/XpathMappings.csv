@@ -1,0 +1,5 @@
+xpath,column_alias
+/bookstore/book[@category='cooking']/title,CookingBookTitle
+/bookstore/book[@category='children']/title,ChildrenBookTitle
+/bookstore/book[@category='web']/title,WebBookTitles
+/bookstore/book[@category='web']/author[text()='Erik T. Ray']/../title,WebBookTitleByErik
